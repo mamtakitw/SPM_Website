@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login First</title>
+    <link rel="stylesheet" href="loginfirst.css">
+    <style>
+        /* Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #6a11cb, #0a010a);
+            color: #fff;
+        }
+
+        /* Container Styling */
+        .text {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Header Styling */
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Button Styling */
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* Button Hover Effects */
+        .button:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Subtle Text Animation */
+        h1, .button {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>Login First</h1>
+        <a href="http://127.0.0.1:5500/login.html" class="button">Go to Login Page</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.button {
+	border: 4px solid #1e1711;
+	background-color: rgb(209, 214, 216);
+	border-radius: 05px;
+	text-decoration: none;
+	text-transform: uppercase;
+	translate:  x direction;
+	transform: skewY(0deg);
+	line-height: 20px;
+	padding:05px 10px;
+	font-family: 'Montserrat', sans-serif;
+	color:rgb(15, 10, 3);
+	display: inline-block;
+}
+
+.button:hover{
+	animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+	0%{
+		box-shadow: 0 0 25px #6ab903
+		            0 0 50px #bc2222
+	}
+}
